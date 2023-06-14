@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/audience.css">
+  
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container-sidebar">
+    <div class="sidebar-div">
+        <h2  class="heading">Ads Manager</h2>
+     <div class="list-group menu-side">
+   <a href="../html/Sidebar.html"> <button type="button" class="list-group-item list-group-item-action"><i id="icon-menu" class='far fa-address-card'></i>Account Overview</button></a>
+       <a href="../html/Compaign.html"> <button type="button" class="list-group-item list-group-item-action"> <i id="icon-menu" class='fas fa-envelope-open-text'></i> Componies</button></a>
+       <a href="../html/reporting.html"> <button type="button" class="list-group-item list-group-item-action"> <i id="icon-menu" class="fa fa-file"></i>Ads reporting</button></a>
+       <a href="../html/Billing.html"><button type="button" class="list-group-item list-group-item-action" > <i id="icon-menu" class='	fa fa-credit-card'></i>Billing</button></a>
+
+     <a href="../html/audience.html">   <button type="button" class="list-group-item list-group-item-action" > <i id="icon-menu" class="fa fa-bars"></i>Audience</button></a>
+      </div>    
+    </div> 
+    <!-- <div class="nav-cont"> -->
+
+
+
+     <!-- this section is just mobile and i pad view  -->
+
+  <a id="menu-btn"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"> <i style="color: black;" class="fa fa-bars"></i></a>
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+      <div class="heading-manager"><h2>Ads Manager</h2>
+      </div>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="">
+       
+        <div class="list-group menu-side">
+         
+         <a href="../html/Sidebar.html"> <button type="button" class="list-group-item list-group-item-action"><i id="icon-menu" class='far fa-address-card'></i>Account Overview</button></a>
+         <a href="../html/Compaign.html"> <button type="button" class="list-group-item list-group-item-action"> <i id="icon-menu" class='fas fa-envelope-open-text'></i> Componies</button></a>
+         <a href="../html/reporting.html"> <button type="button" class="list-group-item list-group-item-action"> <i id="icon-menu" class="fa fa-file"></i>Ads reporting</button></a>
+
+           <a href="../html/Billing.html"><button type="button" class="list-group-item list-group-item-action" > <i id="icon-menu" class='	fa fa-credit-card'></i>Billing</button></a>
+           <a href="../html/audience.html">   <button type="button" class="list-group-item list-group-item-action" > <i id="icon-menu" class="fa fa-bars"></i>Audience</button></a>
+         </div>    
+       </div>
+    </div>
+  </div>
+    <div class="container billing-main">
+        <div class="row justify-content-between mt-5">
+            <div class="col-md-4 ">
+                <h4>Accont Activity</h4>
+
+            </div>
+            <div class="col-md-4">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Anas ()2345367672</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mt-5">
+                <ul class="nav  nav-tabs" id="myTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link  active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Ad Account</button>
+                    </li>
+                    <li class="nav-item" role="presentation ">
+                        <button class="nav-link p-3" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">WhatsApp Business
+                            accounts</button>
+                    </li>
+
+                </ul>
+
+                <div class="tab-content" id="myTabContent ">
+                    <div class="tab-pane fade show active Ad-_Account " id="home" role="tabpanel"
+                        aria-labelledby="home-tab">
+                        <div class="acc-blance">
+                            <div class="blance ">
+                                <p>Ad Account</p>
+                                <h6>Current balance</h6>
+                            </div>
+                            <div class="blance ">
+                                <h6>Daniyal Haider (1355764605004645)</h6>
+                                <h6>Rs0.00 <span> <button class="btn btn-primary p-2.5  disabled" type="button"> Pay
+                                now</button></h6>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="transaction-details mt-5 ">
+                            <!-- <div class="second-image">
+                                <img src="../images/fb.PNG" alt="">
+                            </div> -->
+                            <h2>No transactions</h2>
+                            <p>You have no transactions during this period. Update the date range or remove filters to
+                                expand your search.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="transaction-histroy mt-8" >
+                    <div class="select-acc">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Transactions</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group has-search search-acc">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="Search">
+
+                    </div>
+                    <div class="filter-icon ">
+                        <span class="fa fa-filter "></span>
+                    </div>
+                    <div class="date-picker">
+
+                        <input type="date" aria-label="Last name" class="form-control">
+                    </div>
+                </div>
+                <div class="transaction-details mt-5 image-fb" >
+                    <img src="../images/fb.PNG" alt="">
+                    <h2>No transactions</h2>
+                    <p>You have no transactions during this period. Update the date range or remove filters to expand
+                        your search.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
